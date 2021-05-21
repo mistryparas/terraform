@@ -1,0 +1,11 @@
+---
+- name: create ansbile local hosts
+  hosts: {hostname}
+  tasts:
+    - name: update server 
+      yum:
+        name: "*"
+        status: latest
+        
+    - name: installation of jenkins
+      u
