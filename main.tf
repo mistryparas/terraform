@@ -1,4 +1,4 @@
-rource "aws_dynamodb_table" "mytest-table" {
+resource "aws_dynamodb_table" "mytest-table" {
   name           = "GameScores"
   billing_mode   = "PROVISIONED"
   read_capacity  = 5
